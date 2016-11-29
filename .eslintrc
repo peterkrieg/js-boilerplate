@@ -1,27 +1,63 @@
 {
+  "extends": "airbnb",
   "ecmaFeatures": {
     "jsx": true,
     "modules": true
   },
+  "plugins": [
+    "babel",
+    "react"
+  ],
   "env": {
     "browser": true,
     "node": true
   },
   "parser": "babel-eslint",
   "rules": {
-    "quotes": [2, "single"],
-    "strict": [2, "never"],
+    "max-len": 0,
+    "no-console": 0,
+    "no-param-reassign": 0,
+    "no-tabs": 0,
+    "no-undef": 0,
+    "no-underscore-dangle": 0,
+    "no-use-before-define": 0,
+    "prefer-const": 0,
+
+
+    "arrow-parens": [1, "as-needed"],
+    "babel/arrow-parens": 1,
     "babel/generator-star-spacing": 1,
     "babel/new-cap": 1,
-    "babel/object-shorthand": 1,
-    "babel/arrow-parens": 1,
     "babel/no-await-in-loop": 1,
+    "babel/object-shorthand": 1,
+    "brace-style": [1, "stroustrup"],
+    "comma-dangle": 1,
+    "eol-last": 1,
+    "indent": [1, "tab"],
+    "keyword-spacing": 1,
+    "no-ex-assign": 1,
+    "no-multiple-empty-lines": [1, { "max": 3, "maxEOF": 1 }],
+    "no-trailing-spaces": 1,
+    "no-unused-vars": 1,
+    "no-var": 1,
+    "object-curly-spacing": 1,
+    "padded-blocks": 1,
+    "quotes": [1, "single"],
+    "react/jsx-filename-extension": 0,
+    "react/jsx-indent": [1, "tab"],
+    "react/jsx-space-before-closing": 1,
+    "react/no-multi-comp": 1,
+    "react/prefer-stateless-function": 0,
+    "react/prop-types": 1,
+    "semi": 1,
+    "space-before-blocks": 1,
+    "spaced-comment": 0,
+    "strict": [1, "never"],
+
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
     "react/react-in-jsx-scope": 2
   },
-  "plugins": [
-    "babel",
-    "react"
-  ]
+
 }
+
