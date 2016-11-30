@@ -2,3 +2,7 @@ node_modules/
 *.log
 build/
 dist/
+
+# Ignore .env file, which can contain sensitive info
+# Instead, include .env.example in git, to show user what it could contain
+*.env
