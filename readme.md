@@ -39,3 +39,12 @@ Run `npm build` to create a distro folder and a bundle.js file.
 #### Influences
 
 This project influenced by `create-react-app`, `react-boilerplate`, Wes Bos' courses, and Cory House's JavaScript environment setup on Pluralsight.  
+
+
+
+
+
+#####Things learned..
+
+* can't use nodemon with hot module replacement:  https://github.com/glenjamin/webpack-hot-middleware/issues/21
+* 
