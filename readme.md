@@ -23,9 +23,9 @@ My own JS boilerplate.  Started with create-react-app, decided I only needed pie
 ## Running
 
 
-First `npm install` to grab all the necessary dependencies. 
-
-Then run `npm start` and open <localhost:7770> in your browser.
+* `npm install`
+* `npm start`
+* runs on port 3000 by default.  Can change by setting env variable `PORT` (can be done in `.env` file, or just `export PORT=4000` in CLI to change to 4000, for example)
 
 
 
